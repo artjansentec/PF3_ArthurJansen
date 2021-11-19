@@ -1,0 +1,72 @@
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    
+    <link rel="stylesheet" href="estrutura.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <title>Poupança</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+</head>
+<body>
+    <Div>
+    <header>
+        <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Poupança</h1>
+    </header>
+    <div class="container">
+        <div  id="clock">8:10:45</div>
+        <section >
+            <table>
+                <tr>
+                    <td>
+                        <form class="form-control box" style="width: 350px; text-align: center;" >
+                            <br>
+                            <div class="form-group mb-2">
+                                <input type="text" class="box btn btn-light" placeholder=" Preencha Nome" name="nome" id="nome"><br><br>
+                            </div>
+
+                            <div class="form-group"></div>
+                                <input type="number" class="box btn btn-light" placeholder="Valor a ser aplicado" name="total" id="total"><br><br>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="number" class="box btn btn-light" placeholder="Valor da taxa/juros" name="taxa" id="taxa"><br><br>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="number" class="box btn btn-light" placeholder="Tempo a ser investido" name="meses" id="meses"><br><br>
+                            </div>
+
+                                <button type="button" class="button butao btn btn btn-outline-primary" style="vertical-align:middle"  onclick="calculo()"><span>Calcular </span></button>
+
+                            </div>
+                        </div>
+
+                    </td>
+                    <td id="img">
+                        <img src="img_porco.jpg" width="400" height="300">
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <br>
+            <div class="meio">
+                <h4 id="texto" style="color: white;" class="meio"></h4>
+            <div class="meio"><br>
+    </div>
+    <footer>
+        <h6><a style="color: red;">Aviso: </a>Indicamos que voce procure um profissional de saúde, pois esses dados podem variar</h6>
+        <p>&copy; Arthur Jansen - COTEMIG</p>
+    </footer>
+
+
+    <script src="script.js">
+        
+    </script>
+</Div>
+</body>
+</html>

@@ -1,0 +1,176 @@
+body{
+    /* background-color: rgb(68, 58, 163);*/
+    font: normal 20pt Arial;
+    background-image: linear-gradient(150deg, #5d5e59 2%, #3a3a38 25%, #161616 55%, #040404 ,#5d5e59);
+
+}
+
+header{
+    color: whitesmoke;
+    text-align: center;
+    padding: 0px 0px 50px 0px;
+
+}
+
+section{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 15px;
+    width: 900px;
+    margin: auto;
+    box-shadow: 5pt 5pt 10pt #dc8f04
+    ;
+
+
+}
+nav{
+  background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5pt 5pt 10pt black;
+}
+
+.form-control:hover{
+    -moz-box-shadow: 0px 0px 5px #1e1e1e; 
+    -webkit-box-shadow: 0px 0px 5px #1e1e1e; 
+    box-shadow: 0px 0px 5px #1e1e1e;
+    -webkit-transition: box-shadow 0.3s ease-in-out 0s;
+    -moz-transition: box-shadow 0.3s ease-in-out 0s;
+    -o-transition: box-shadow 0.3s ease-in-out 0s;
+    -ms-transition: box-shadow 0.3s ease-in-out 0s;
+    transition: box-shadow 0.3s ease-in-out 0s;
+    
+}
+
+.zoom {
+    padding: 50px;
+    transition: transform .2s; /* Animation */
+    width: 140px;
+    height: 10px;
+   
+  }
+  
+  .zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+.meio{
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    color:white
+}
+
+img{
+    margin-left: 100px;
+    border-radius: 20px;
+}
+
+
+footer{
+    color: whitesmoke;
+    text-align: center;
+    font-size: italic;
+    padding: 2px 0px 2px 0px;
+}
+
+
+/*
+aqui para baixo e para o relogio
+
+*/
+.lindo{
+  background-color: rgb(00, 0, 0);
+  font: normal 20pt Arial;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+#clock {
+    font-size: 20px;
+    width: 140px;
+    margin: 20px;
+    margin-left: -80px;
+    margin-top: -80px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    top: 200px;
+    color: white;
+  }
+  #clock:hover{
+    -moz-box-shadow: 0px 0px 5px #ffffff; 
+    -webkit-box-shadow: 0px 0px 5px #ffffff; 
+    box-shadow: 0px 0px 5px #ffffff;
+    -webkit-transition: box-shadow 0.3s ease-in-out 0s;
+    -moz-transition: box-shadow 0.3s ease-in-out 0s;
+    -o-transition: box-shadow 0.3s ease-in-out 0s;
+    -ms-transition: box-shadow 0.3s ease-in-out 0s;
+    transition: box-shadow 0.3s ease-in-out 0s;
+  }
+.butao{
+  border-radius: 20px;
+  padding: 10px;
+  width: 120px;
+  box-shadow: 1pt 1pt 5pt #3a3a38
+  ;
+ }
+
+ .button {
+  display: inline-block;
+  text-align: center;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  background-color: #5d5e59;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+ .btn1 {
+  background-color: #fff;
+  color: #db1717;
+  border-color: #db1717;
+  border-radius: 20px;
+  padding: 10px;
+  width: 120px;
+  
+  box-shadow: 1pt 1pt 5pt rgb(236, 19, 19);
+}
+
+.box{
+  border-radius: 20px;
+  padding: 10px;
+  width: 250px;
+  box-shadow: 1pt 1pt 5pt rgb(0, 0, 0);
+}
+  /*
+aqui para baixo e para o relogio
+
+*/
